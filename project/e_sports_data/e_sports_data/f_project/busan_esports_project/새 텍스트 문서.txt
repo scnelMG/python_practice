@@ -1,0 +1,54 @@
+'championName',
+'versionIndex',
+ 'version',
+ 'hp', *
+ 'hp per level', 
+'mp',
+  'mp per level', 
+'movespeed',
+ 'armor', 
+'armor per level', '
+spellblock',
+       'spellblockperlevel',
+ 'attackrange', 
+'hpregen',
+ 'hpregenperlevel',
+       'mpregen',
+ 'mpregenperlevel', 
+'crit', 
+'critperlevel',
+ 'attackdamage',
+       'attackdamageperlevel',
+ 'attackspeedperlevel', 
+'attackspeed',
+ 'hp_18',
+       'mp_18',
+ 'armor_18',
+ 'spellblock_18',
+ 'hpregen_18', 
+'mpregen_18',
+       'crit_18', 
+'attackdamage_18', 
+'attackspeed_18'
+
+ 'hp', 'hp per level',   'armor', 'armor per level',  'attackdamage', 'attackdamageperlevel', 'attackspeed',  'attackspeedperlevel', 'attackspeed_18' 'attackdamage_18'
+
+
+
+주어진 포지션을 픽창 채팅으로 바꾸는 경우- 하위 항목을 자르는 것으로 보완 가능
+
+소위 골드 먹은 값을 하는 챔피언/ 초반 성장 말려도 1인분 하는 챔피언 - 획득 골드가 낮아도 승률이 높은 챔피언
+- 티어를 섞어서 하는 게임(ex- 멸망전)에서 저티어, 고티어 추천 챔피언? 저티어(갈리오, 말파이트)
+
+픽률과 승률의 상관관계
+
+서폿- 그랩류
+
+게임 평균 시간, 포지션 별 평균 레벨, ->게임이 길수록  성장 스텟이 높은 챔피언이 유리?
+시간별 챔피언 승률 변화
+원맨 캐리 게임 빈도수?-KDA / 딜량
+
+분당 딜량, 분당 골드
+티어별 캐리 라인 구하기?
+
+티어별 승리 기여도가 높은 라인 구하기-

@@ -1,0 +1,158 @@
+﻿championId,name,style,difficulty,damageType,damage,durability,crowdControl,mobility,utility,roles
+887,Gwen,5,2,kMagic,3,2,1,3,1,"['fighter', 'assassin']"
+876,Lillia,8,3,kMagic,3,1,2,2,2,"['fighter', 'mage']"
+875,Sett,4,2,kPhysical,2,2,2,2,1,"['fighter', 'tank']"
+777,Yone,5,3,kMixed,3,1,2,3,1,"['assassin', 'fighter']"
+711,Vex,9,2,kMagic,3,2,2,2,1,['mage']
+555,Pyke,7,2,kPhysical,2,1,3,3,1,"['support', 'assassin']"
+526,Rell,9,2,kMagic,1,3,3,2,2,['tank']
+523,Aphelios,3,3,kPhysical,3,1,2,1,1,['marksman']
+518,Neeko,8,1,kMagic,3,1,3,1,1,"['mage', 'support']"
+517,Sylas,7,3,kMagic,2,2,1,3,1,"['mage', 'assassin']"
+516,Ornn,7,2,kMixed,1,3,3,1,2,"['tank', 'fighter']"
+498,Xayah,4,2,kPhysical,3,2,3,1,1,['marksman']
+497,Rakan,9,2,kMagic,1,2,3,3,3,['support']
+432,Bard,7,3,kMagic,1,1,3,2,3,"['support', 'mage']"
+429,Kalista,2,3,kPhysical,3,1,1,3,2,['marksman']
+427,Ivern,1,3,kMagic,1,1,3,2,3,"['support', 'mage']"
+421,Rek'Sai,4,2,kPhysical,2,2,2,2,2,['fighter']
+420,Illaoi,7,2,kPhysical,3,2,1,1,1,"['fighter', 'tank']"
+412,Thresh,8,3,kMagic,1,2,3,1,3,"['support', 'fighter']"
+360,Samira,1,2,kPhysical,3,2,1,3,1,['marksman']
+350,Yuumi,10,1,kMagic,1,1,1,3,3,"['support', 'mage']"
+268,Azir,5,3,kMagic,3,1,2,2,1,"['mage', 'marksman']"
+267,Nami,9,2,kMagic,1,1,3,1,2,"['support', 'mage']"
+266,Aatrox,3,2,kPhysical,3,3,2,2,2,"['fighter', 'tank']"
+254,Vi,6,1,kPhysical,2,2,3,2,1,"['fighter', 'assassin']"
+246,Qiyana,7,3,kPhysical,3,1,2,2,1,"['assassin', 'fighter']"
+245,Ekko,8,3,kMagic,3,2,2,3,1,"['assassin', 'fighter']"
+240,Kled,3,2,kPhysical,3,2,1,3,1,"['fighter', 'tank']"
+238,Zed,6,3,kPhysical,3,1,1,3,1,['assassin']
+236,Lucian,4,2,kPhysical,3,1,1,3,1,['marksman']
+235,Senna,3,2,kPhysical,2,1,2,1,3,"['marksman', 'support']"
+234,Viego,3,3,kPhysical,3,1,2,2,1,"['assassin', 'fighter']"
+223,Tahm Kench,7,1,kMagic,2,3,2,1,3,"['support', 'tank']"
+222,Jinx,2,2,kPhysical,3,1,2,1,1,['marksman']
+203,Kindred,3,3,kPhysical,3,1,2,3,2,['marksman']
+202,Jhin,3,2,kPhysical,3,1,2,1,1,"['marksman', 'mage']"
+201,Braum,9,2,kMagic,1,2,3,1,2,"['support', 'tank']"
+166,Akshan,1,3,kPhysical,3,1,1,3,2,"['marksman', 'assassin']"
+164,Camille,4,3,kPhysical,3,2,2,3,1,"['fighter', 'tank']"
+163,Taliyah,10,2,kMagic,3,1,2,1,3,"['mage', 'support']"
+161,Vel'Koz,10,2,kMagic,3,1,2,1,1,['mage']
+157,Yasuo,3,3,kPhysical,3,1,2,3,2,"['fighter', 'assassin']"
+154,Zac,10,1,kMagic,2,3,3,2,1,"['tank', 'fighter']"
+150,Gnar,5,3,kPhysical,2,3,2,2,1,"['fighter', 'tank']"
+147,Seraphine,10,1,kMagic,3,1,3,1,2,"['mage', 'support']"
+145,Kai'Sa,2,2,kMixed,3,1,0,3,1,['marksman']
+143,Zyra,10,2,kMagic,3,1,3,1,1,"['mage', 'support']"
+142,Zoe,10,3,kMagic,3,1,2,2,1,"['mage', 'support']"
+141,Kayn,1,2,kPhysical,3,1,1,3,1,"['fighter', 'assassin']"
+136,Aurelion Sol,10,3,kMagic,3,1,2,2,1,['mage']
+134,Syndra,10,2,kMagic,3,1,2,1,1,"['mage', 'support']"
+133,Quinn,3,2,kPhysical,3,1,2,3,1,"['marksman', 'assassin']"
+131,Diana,7,1,kMagic,3,2,2,2,1,"['fighter', 'mage']"
+127,Lissandra,10,2,kMagic,3,1,3,2,1,['mage']
+126,Jayce,5,2,kPhysical,3,1,1,2,2,"['fighter', 'marksman']"
+122,Darius,6,2,kPhysical,3,2,2,1,1,"['fighter', 'tank']"
+121,Kha'Zix,6,2,kPhysical,3,1,1,2,1,['assassin']
+120,Hecarim,7,2,kPhysical,2,2,2,2,1,"['fighter', 'tank']"
+119,Draven,2,3,kPhysical,3,1,1,2,1,['marksman']
+117,Lulu,8,2,kMagic,2,1,2,1,3,"['support', 'mage']"
+115,Ziggs,9,2,kMagic,3,1,2,2,1,['mage']
+114,Fiora,3,3,kPhysical,3,2,2,2,2,"['fighter', 'assassin']"
+113,Sejuani,8,2,kMagic,2,2,3,2,1,"['tank', 'fighter']"
+112,Viktor,9,3,kMagic,3,1,2,1,1,['mage']
+111,Nautilus,8,2,kMagic,1,3,3,1,1,"['tank', 'fighter']"
+110,Varus,3,2,kPhysical,3,1,2,1,1,"['marksman', 'mage']"
+107,Rengar,4,2,kPhysical,3,1,2,2,1,"['assassin', 'fighter']"
+106,Volibear,4,1,kPhysical,2,3,2,2,1,"['fighter', 'tank']"
+105,Fizz,9,3,kMagic,3,1,2,3,1,"['assassin', 'fighter']"
+104,Graves,3,2,kPhysical,3,2,1,2,2,['marksman']
+103,Ahri,10,2,kMagic,3,1,2,3,1,"['mage', 'assassin']"
+102,Shyvana,6,1,kPhysical,2,2,1,2,1,"['fighter', 'tank']"
+101,Xerath,9,2,kMagic,3,1,2,1,1,['mage']
+99,Lux,9,1,kMagic,3,1,2,1,2,"['mage', 'support']"
+98,Shen,5,2,kMixed,2,3,2,2,3,['tank']
+96,Kog'Maw,2,2,kMixed,3,1,1,1,1,"['marksman', 'mage']"
+92,Riven,8,2,kPhysical,3,2,2,3,1,"['fighter', 'assassin']"
+91,Talon,7,2,kPhysical,3,1,1,2,1,['assassin']
+90,Malzahar,10,1,kMagic,3,1,3,1,2,"['mage', 'assassin']"
+89,Leona,9,1,kMagic,1,3,3,1,1,"['tank', 'support']"
+86,Garen,8,1,kPhysical,2,3,1,1,1,"['fighter', 'tank']"
+85,Kennen,7,2,kMagic,3,1,3,1,1,"['mage', 'marksman']"
+84,Akali,7,2,kMixed,3,1,1,3,1,['assassin']
+83,Yorick,6,2,kMixed,2,2,2,1,2,"['fighter', 'tank']"
+82,Mordekaiser,8,2,kMagic,3,2,1,1,2,['fighter']
+81,Ezreal,1,1,kMagic,1,1,1,1,1,"['marksman', 'mage']"
+80,Pantheon,8,1,kPhysical,3,2,2,2,1,"['fighter', 'assassin']"
+79,Gragas,9,2,kMagic,2,3,3,2,1,"['fighter', 'mage']"
+78,Poppy,8,2,kPhysical,2,3,3,2,1,"['tank', 'fighter']"
+77,Udyr,4,2,kMixed,2,3,2,2,1,"['fighter', 'tank']"
+76,Nidalee,8,3,kMagic,3,1,1,3,2,"['assassin', 'mage']"
+75,Nasus,3,1,kPhysical,2,3,2,1,1,"['fighter', 'tank']"
+74,Heimerdinger,10,2,kMagic,3,1,2,1,2,"['mage', 'support']"
+72,Skarner,5,1,kMixed,1,3,3,1,1,"['fighter', 'tank']"
+69,Cassiopeia,10,3,kMagic,3,1,3,1,1,['mage']
+68,Rumble,9,3,kMagic,3,2,2,1,1,"['fighter', 'mage']"
+67,Vayne,1,2,kPhysical,3,1,2,2,1,"['marksman', 'assassin']"
+64,Lee Sin,6,3,kPhysical,3,2,2,3,1,"['fighter', 'assassin']"
+63,Brand,10,2,kMagic,3,1,2,1,1,['mage']
+62,Wukong,6,1,kPhysical,2,2,2,2,1,"['fighter', 'tank']"
+61,Orianna,9,2,kMagic,2,1,2,1,2,"['mage', 'support']"
+60,Elise,7,3,kMagic,2,2,2,2,1,"['mage', 'fighter']"
+59,Jarvan IV,6,1,kPhysical,2,2,2,2,2,"['tank', 'fighter']"
+58,Renekton,5,1,kPhysical,2,2,2,2,1,"['fighter', 'tank']"
+57,Maokai,8,1,kMagic,1,3,3,1,2,"['tank', 'mage']"
+56,Nocturne,4,1,kPhysical,3,1,2,2,2,"['assassin', 'fighter']"
+55,Katarina,10,3,kMagic,3,1,1,3,1,"['assassin', 'mage']"
+54,Malphite,8,1,kMagic,1,3,3,1,1,"['tank', 'fighter']"
+53,Blitzcrank,9,1,kMagic,1,2,3,1,1,"['tank', 'fighter']"
+51,Caitlyn,2,1,kPhysical,3,1,2,2,1,['marksman']
+50,Swain,10,2,kMagic,2,2,2,1,1,"['mage', 'fighter']"
+48,Trundle,3,1,kPhysical,2,3,1,1,2,"['fighter', 'tank']"
+45,Veigar,10,2,kMagic,3,1,3,1,1,['mage']
+44,Taric,8,2,kMagic,1,2,2,1,3,"['support', 'fighter']"
+43,Karma,10,1,kMagic,2,1,2,1,2,"['mage', 'support']"
+42,Corki,5,2,kMixed,3,1,1,2,1,['marksman']
+41,Gangplank,8,3,kPhysical,3,1,1,1,2,['fighter']
+40,Janna,10,1,kMagic,1,1,3,1,3,"['support', 'mage']"
+39,Irelia,4,3,kMixed,2,2,2,3,2,"['fighter', 'assassin']"
+38,Kassadin,9,2,kMagic,3,2,1,3,1,"['assassin', 'mage']"
+37,Sona,9,1,kMagic,2,1,2,1,2,"['support', 'mage']"
+36,Dr. Mundo,6,1,kMixed,2,3,1,1,1,"['fighter', 'tank']"
+35,Shaco,5,2,kPhysical,3,1,2,2,2,['assassin']
+34,Anivia,10,3,kMagic,3,1,3,1,2,"['mage', 'support']"
+33,Rammus,7,1,kMixed,2,3,3,2,1,"['tank', 'fighter']"
+32,Amumu,9,1,kMagic,2,3,3,1,1,"['tank', 'mage']"
+31,Cho'Gath,7,1,kMagic,2,3,2,1,1,"['tank', 'mage']"
+30,Karthus,10,2,kMagic,3,1,1,1,2,['mage']
+29,Twitch,1,2,kPhysical,3,1,1,2,1,"['marksman', 'assassin']"
+28,Evelynn,8,2,kMagic,2,2,1,2,2,"['assassin', 'mage']"
+27,Singed,10,2,kMagic,2,3,2,2,1,"['tank', 'fighter']"
+26,Zilean,10,2,kMagic,2,1,2,2,3,"['support', 'mage']"
+25,Morgana,10,1,kMagic,2,1,3,1,2,"['mage', 'support']"
+24,Jax,2,2,kMixed,3,2,2,2,1,"['fighter', 'assassin']"
+23,Tryndamere,2,1,kPhysical,3,2,1,2,1,"['fighter', 'assassin']"
+22,Ashe,3,1,kPhysical,2,1,3,1,2,"['marksman', 'support']"
+21,Miss Fortune,4,1,kPhysical,3,1,1,1,1,['marksman']
+20,Nunu & Willump,8,1,kMagic,1,3,2,1,2,"['tank', 'fighter']"
+19,Warwick,4,1,kMixed,2,2,2,1,1,"['fighter', 'tank']"
+18,Tristana,3,1,kPhysical,3,1,2,2,1,"['marksman', 'assassin']"
+17,Teemo,4,1,kMagic,3,1,2,1,2,"['marksman', 'assassin']"
+16,Soraka,10,1,kMagic,1,1,2,1,3,"['support', 'mage']"
+15,Sivir,2,2,kPhysical,3,1,1,1,2,['marksman']
+14,Sion,7,1,kPhysical,2,3,3,1,1,"['tank', 'fighter']"
+13,Ryze,10,2,kMagic,3,1,2,2,2,"['mage', 'fighter']"
+12,Alistar,7,1,kMagic,1,3,3,1,2,"['tank', 'support']"
+11,Master Yi,2,1,kPhysical,3,1,1,2,1,"['assassin', 'fighter']"
+10,Kayle,3,2,kMixed,3,1,1,1,3,"['fighter', 'support']"
+9,Fiddlesticks,10,2,kMagic,3,1,3,1,1,"['mage', 'support']"
+8,Vladimir,10,2,kMagic,3,2,1,1,1,['mage']
+7,LeBlanc,10,3,kMagic,3,1,2,3,1,"['assassin', 'mage']"
+6,Urgot,6,2,kPhysical,2,2,2,1,1,"['fighter', 'tank']"
+5,Xin Zhao,4,1,kPhysical,2,2,2,2,1,"['fighter', 'assassin']"
+4,Twisted Fate,7,2,kMagic,3,1,2,2,2,['mage']
+3,Galio,10,2,kMagic,2,3,3,2,1,"['tank', 'mage']"
+2,Olaf,4,2,kPhysical,2,2,2,1,1,"['fighter', 'tank']"
+1,Annie,10,1,kMagic,3,1,3,1,2,['mage']
