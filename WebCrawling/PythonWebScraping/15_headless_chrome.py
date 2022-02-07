@@ -1,12 +1,22 @@
 # -*- coding: utf-8 -*-
 """
-Created on Sun Oct  3 22:27:02 2021
+Created on Mon Feb  7 17:39:47 2022
 
 @author: Mgyu
 """
 
 from selenium import webdriver
-browser = webdriver.Chrome(executable_path="./chromedriver.exe")
+
+# headless 옵션 적용
+options = webdriver.ChromeOptions()
+options.add_argument('headless')
+options.add_argument("window-size=1920x1080")
+
+browser = webdriver.Chrome(options = options)
+
+
+
+
 
 # 페이지 이동
 url = "https://play.google.com/store/movies/top"
