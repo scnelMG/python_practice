@@ -12,9 +12,9 @@ browser = webdriver.Chrome(executable_path="./chromedriver.exe")
 url = "https://play.google.com/store/movies/top"
 browser.get(url)
 
-
 # 2022.02.07 현재 스크롤 내리는 방식으로 영화를 가져올 수 없음. 
 # 인기차트를 나열하는 방식이 바뀐 듯
+
 
 # 지정한 위치로 스크롤 내리기(좌표 입력하는 방식)
 #browser.execute_script("window.scrollTo(0, 1080)") # 해상도가1920 x 1080 이기 때문에 세로 1080 설정

@@ -9,7 +9,10 @@ import requests
 from bs4 import BeautifulSoup
 import re
 
+# UserAgent 사용
 headers = {'User-Agent' : 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36'}
+
+# 예 - 쿠팡의 여러페이지 이동하며 크롤링(url의 특징을 이용)
 
 # 페이지 여러개에서 불러오기
 
@@ -31,7 +34,7 @@ for i in range(1,6):
             continue
         
         name = item.find("div", attrs={"class":"name"}).get_text()
-        # 한성컴퓨터 제외
+        # 한성컴퓨터 제품은 제외
         if "한성" in name:
             #print("<한성 제품 제외합니다>")
             continue
@@ -60,4 +63,4 @@ for i in range(1,6):
             print(f"가격 : {price}원")
             print(f"제품명 : {rate}점 ({rate_count}개)")
             print("해당 링크: https://www.coupang.com"+link)
-            print("-"*100)
+            print("-"*50)

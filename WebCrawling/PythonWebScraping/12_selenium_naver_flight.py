@@ -9,7 +9,10 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait as wait
-browser = webdriver.Chrome(executable_path="C:/Users/Mgyu/Desktop/PL/python/python YT/webscraping/chromedriver.exe")
+
+# 예 - 네이버 항공권
+
+browser = webdriver.Chrome()
 browser.maximize_window() # 창 최대화
 
 url = "https://flight.naver.com/"
