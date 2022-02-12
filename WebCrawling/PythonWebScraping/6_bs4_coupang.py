@@ -5,14 +5,16 @@ Created on Wed Sep 22 21:32:34 2021
 @author: 박민규
 """
 
+# 예 - 쿠팡
 import requests
 from bs4 import BeautifulSoup
 import re
 
+# UserAgent 사용
 headers = {'User-Agent' : 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36'}
+
 url = "https://www.coupang.com/np/search?q=%EB%85%B8%ED%8A%B8%EB%B6%81&channel=user&component=&eventCategory=SRP&trcid=&traid=&sorter=scoreDesc&minPrice=&maxPrice=&priceRange=&filterType=&listSize=36&filter=&isPriceRange=false&brand=&offerCondition=&rating=0&page=1&rocketAll=false&searchIndexingToken=1=6&backgroundColor="
 res = requests.get(url, headers = headers)
-
 
 res.raise_for_status()
 soup = BeautifulSoup(res.text, "lxml")
@@ -27,7 +29,7 @@ for item in items:
         print("<광고 상품 제외>")
         continue
     name = item.find("div", attrs={"class":"name"}).get_text()
-    # 한성컴퓨터 제외
+    # 한성컴퓨터 제품은 제외
     if "한성" in name:
         print("<한성 제품 제외합니다>")
         continue
