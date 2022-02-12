@@ -6,21 +6,28 @@ Created on Sat Oct  2 01:52:35 2021
 """
 
 from selenium import webdriver
-
-browser = webdriver.Chrome(executable_path="C:/Users/Mgyu/Desktop/PL/python/python YT/webscraping/chromedriver.exe")
+import time
+browser = webdriver.Chrome(executable_path="./chromedriver.exe")
 browser.get("http://naver.com")
 
+# 로그인 버튼 클릭
 elem = browser.find_element_by_class_name("link_login")
 elem.click()
+
+# 창 뒤로가기, 앞르로가기, 새로고침
 browser.back()
 browser.forward()
 browser.refresh()
+browser.back()
 
 # elem = browser.find_element_by_class_name("input_text")
+# 검색창에 원하는 검색어 입력
 elem = browser.find_element_by_id("query")
 from selenium.webdriver.common.keys import Keys
 elem.send_keys("오킹")
 elem.send_keys(Keys.ENTER)
+
+browser.back()
 
 elem = browser.find_elements_by_tag_name("a")
 elem

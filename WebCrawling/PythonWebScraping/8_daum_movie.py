@@ -8,6 +8,8 @@ Created on Wed Sep 29 01:09:32 2021
 import requests
 from bs4 import BeautifulSoup
 
+# 예 - 다음 영화
+
 # res = requests.get("https://search.daum.net/search?w=tot&q=2020%EB%85%84%EC%98%81%ED%99%94%EC%88%9C%EC%9C%84&DA=MOR&rtmaxcoll=MOR")
 # res.raise_for_status()
 # soup = BeautifulSoup(res.text, "lxml")
@@ -29,7 +31,8 @@ for year in range(2015,2021):
         img_res = requests.get(img_url)
         img_res.raise_for_status()
         
-        with open("movie_{}_{}.jpg".format(year,idx+1), "wb") as f:
+        # 영화 포스터 사진 저장
+        with open("./photo/movie_{}_{}.jpg".format(year,idx+1), "wb") as f:
             f.write(img_res.content)
     
         if idx >=4:
