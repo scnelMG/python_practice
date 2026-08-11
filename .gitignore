@@ -1,0 +1,15 @@
+.ipynb_checkpoints/
+__pycache__/
+.venv/
+venv/
+.env
+*.py[cod]
+build/
+dist/
+*.exe
+*.dll
+*.pdb
+*.pkg
+*.lnk
+chromedriver*
+python_exe/
