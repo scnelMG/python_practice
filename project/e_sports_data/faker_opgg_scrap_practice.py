@@ -7,8 +7,10 @@ Original file is located at
     https://colab.research.google.com/drive/1P1TcMLN4ZB7GgvHc8RTd_9ea2mcWGTev
 """
 
-!pip install selenium
+# Colab setup command: pip install selenium
 
+# Historical Colab export: installation commands are documentation only.
+# The original OP.GG selectors and Selenium API require a matching old environment.
 import requests
 import time
 import pandas as pd
@@ -17,10 +19,10 @@ from selenium import webdriver
 from selenium.webdriver.support.ui import Select
 
 # step1
-!apt-get update
-!apt install chromium-chromedriver
-!cp /usr/lib/chromium-browser/chromedriver /usr/bin
-!pip install selenium
+# Colab setup command: apt-get update
+# Colab setup command: apt install chromium-chromedriver
+# Colab setup command: cp /usr/lib/chromium-browser/chromedriver /usr/bin
+# Colab setup command: pip install selenium
 
 # step2
 from selenium import webdriver
