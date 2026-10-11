@@ -29,7 +29,7 @@ p = re.compile("ca.e") # .은 하나의 문자를 의미 > cafe, care (O)| caffe
 m = p.match("case")
 # m1 = p.match("caffe")
 print(m.group()) #매치되지 않으면 에러 발생
-# print(m1.group()) 
+# print(m1.group())
 def print_match(m):
     if m:
         print("m.group():", m.group()) # 일치하는 문자열 반환
@@ -41,7 +41,7 @@ def print_match(m):
         print("매칭되지 않음")
 
 m = p.match("careless")
-# match : 주어진 문자열의 처음부터 일치하는지 확인, 
+# match : 주어진 문자열의 처음부터 일치하는지 확인,
 # 즉 뒤에 뭐 있어도 매칭되었다고 함
 print_match(m)
 
@@ -52,22 +52,12 @@ print_match(m)
 m = list = p.findall("good care cafe") # findall : 일치하는 모든 것을 리스트 형태로 반환
 print(list)
 #%% 정리
-1. p = re.compile("원하는 형태")
-2. m = p.match("비교할 문자열 ") : 주어진 문자열의 처음부터 일치하는지 확인, 
-3. m = p.search("비교할 문자열") : 주어진 문자열 중에 일치하는게 있는지 확인
-4. list = p.findall("비교할 문자열") 일치하는 모든 것을 list 형태로 반환
+# 1. p = re.compile("원하는 형태")
+# 2. m = p.match("비교할 문자열 ") : 주어진 문자열의 처음부터 일치하는지 확인,
+# 3. m = p.search("비교할 문자열") : 주어진 문자열 중에 일치하는게 있는지 확인
+# 4. list = p.findall("비교할 문자열") 일치하는 모든 것을 list 형태로 반환
 
-원하는 형태 : 정규식
-.은 하나의 문자를 의미 > cafe, care (O)| caffe  (X)
-^: 문자열의 시작 > (^de) : desk, destination (O) | fade (X)
-$: 문자열의 끝 > (se$) : case, base (O) | face (X)
-
-
-
-
-
-
-
-
-
-
+# 원하는 형태 : 정규식
+# .은 하나의 문자를 의미 > cafe, care (O)| caffe  (X)
+# ^: 문자열의 시작 > (^de) : desk, destination (O) | fade (X)
+# $: 문자열의 끝 > (se$) : case, base (O) | face (X)
