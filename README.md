@@ -50,6 +50,25 @@ jupyter notebook
 
 외부 API·크롤링·대용량 데이터가 필요한 일부 실습은 당시의 로컬 환경 또는 별도 키가 필요할 수 있습니다.
 
+### Riot API 실습
+
+이스포츠 노트북은 `RIOT_API_KEY` 환경변수를 읽습니다. Jupyter를 시작할 터미널에서 본인의 유효한 키를 설정하세요. 키를 코드·출력·커밋에 넣지 마세요. 환경변수가 없으면 API 요청 전에 실행이 중단됩니다.
+
+```powershell
+$env:RIOT_API_KEY = Read-Host 'Riot API key' -MaskInput
+jupyter notebook
+```
+
+위 입력 명령은 PowerShell 7.1 이상 기준입니다. Colab에서는 비밀 저장소에 `RIOT_API_KEY`를 등록한 뒤 아래 셀을 먼저 실행합니다.
+
+```python
+import os
+from google.colab import userdata
+os.environ['RIOT_API_KEY'] = userdata.get('RIOT_API_KEY')
+```
+
+`python scripts/check_riot_keys.py`는 현재 추적 파일의 Riot 키 문자열을 검사하며 CI에서도 실행합니다. Git 오류를 정상 결과로 처리하지 않습니다. 과거 커밋·포크·외부 사본의 삭제나 노출된 키의 폐기를 대신하는 검사는 아닙니다. 과거에 커밋한 키는 재사용하지 말고 Riot 개발자 포털에서 폐기·재발급 여부를 확인하세요.
+
 ## 보존 정책
 
 - 수업 원본·중간 실험·checkpoint 파일을 학습 이력으로 보존합니다.
